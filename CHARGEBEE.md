@@ -13,4 +13,5 @@ Expected result:
 `Chargebee` should trigger 3DS authorization of the Credit Card.
 
 Additional notes:
-Should have a valid `paymentIntent` object.
+- Should have a valid `paymentIntent` object.
+- Credit Card Number, MM/YY and CVV are from https://www.chargebee.com/docs/2.0/chargebee-test-gateway.html.
